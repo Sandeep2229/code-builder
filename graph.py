@@ -8,8 +8,10 @@ DEFAULT_ROUTING_TABLE = {
     "backend_complete": "tester",
     "tests_passed": END,
     "frontend_bugs_found": "frontend",
-    "backend_bugs_found": "backend"
+    "backend_bugs_found": "backend",
+    "uiux_bugs_found": "uiux"
 }
+
 
 def should_continue(state: CodeBuilderState) -> str:
     stage = state["current_stage"]
